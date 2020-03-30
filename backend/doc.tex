@@ -1,0 +1,55 @@
+Usando o Insomnia para ver os resultados do backend
+
+CRIAR PASTA (ONGS)
+
+
+Terceira Etapa
+Profile
+GET http://localhost:3333/profile
+Body
+Header Authorization  94613e54
+
+Login
+POST http://localhost:3333/sessions
+JSON 
+{
+	"id": "94613e54"
+}
+
+
+
+Primeira Etapa
+Create
+
+POST = http://localhost:3333/ongs
+
+JSON 
+{
+	"name": "APD3",
+	"email": "contato@caritas.com",
+	"whatsapp": "4700000000",
+	"city": "Moçambique",
+	"uf": "SP"
+}
+
+List
+GET http://localhost:3333/ongs
+
+Segunda Etapa
+PASTA (CASOS)
+
+List
+GET http://localhost:3333/incidents?page=1
+
+Create
+POST 
+{
+	"title": "Caso 1",
+	"description": "Detalhes do Caso",
+	"value": "120"
+}
+
+DELETE
+DELETE http://localhost:3333/incidents/1
+Header Authorization "ID" 94613e54 
+
