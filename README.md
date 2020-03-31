@@ -13,7 +13,7 @@ Criar uma plataforma web/mobile utilizando *React* e *React-native* para fronten
 ### Tecnologias utilizadas
 
 ```
-git, node, express, knex, sqlite, reactjs, react-native, expo, vuejs
+git, node, express, knex, sqlite, reactjs, react-native, expo
 ```
 
 ### Instalação
@@ -42,14 +42,21 @@ Após a geração do banco de dados e das migrações você poderá rodar o back
 npm start
 ```
 
-**Para o vue-frontend:**
-```
-npm run serve
-```
-
 **Para o mobile**
 ```
 expo start
+```
+**Pacotes usados**
+```
+npm init -y
+npm install express
+npm install nodemon -D
+npm install sqlite3
+npm install knex 
+npm install react-router-dom
+
+npx knex migrate:make create_
+
 ```
 
 **React-Icons**
