@@ -55,6 +55,12 @@ npm run serve
 ```
 expo start
 ```
+
+**React-Icons**
+```
+npm install react-icons // tem todos os pacotes de icones existente 
+```
+
 Para visualização da aplicação mobile utilize o celular com o aplicativo *Expo* ou emulador Android/iOS.
 
 
