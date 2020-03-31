@@ -13,7 +13,7 @@ Criar uma plataforma web/mobile utilizando *React* e *React-native* para fronten
 ### Tecnologias utilizadas
 
 ```
-git, node, express, knex, sqlite, reactjs, react-native, expo, vuejs
+git, node, express, knex, sqlite, reactjs, react-native, expo
 ```
 
 ### Instalação
